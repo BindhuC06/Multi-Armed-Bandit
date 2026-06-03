@@ -1,0 +1,45 @@
+Results :
+
+epsilon=0.1
+
+--- Simulation Results ---
+Total Steps: 1000
+Total Accumulated Reward: 1623.31
+Average Reward Per Step: 1.62
+
+--- Agent's Final Learned Values ---
+Arm 0: Pulled 39 times | Estimated Mean = -0.62
+Arm 1: Pulled 903 times | Estimated Mean = 1.83
+Arm 2: Pulled 19 times | Estimated Mean = 0.87
+Arm 3: Pulled 22 times | Estimated Mean = 0.37
+Arm 4: Pulled 17 times | Estimated Mean = -1.84
+
+---------------------
+
+epsilon=0.01
+
+--- Simulation Results ---
+Total Steps: 1000
+Total Accumulated Reward: 1795.59
+Average Reward Per Step: 1.80
+
+--- Agent's Final Learned Values ---
+Arm 0: Pulled 2 times | Estimated Mean = -0.34
+Arm 1: Pulled 995 times | Estimated Mean = 1.81
+Arm 2: Pulled 0 times | Estimated Mean = 0.00
+Arm 3: Pulled 0 times | Estimated Mean = 0.00
+Arm 4: Pulled 3 times | Estimated Mean = -0.95
+
+epsilon=0.3
+
+--- Simulation Results ---
+Total Steps: 1000
+Total Accumulated Reward: 1357.44
+Average Reward Per Step: 1.36
+
+--- Agent's Final Learned Values ---
+Arm 0: Pulled 60 times | Estimated Mean = -0.63
+Arm 1: Pulled 758 times | Estimated Mean = 1.81
+Arm 2: Pulled 51 times | Estimated Mean = 1.21
+Arm 3: Pulled 61 times | Estimated Mean = 0.59
+Arm 4: Pulled 70 times | Estimated Mean = -1.05
