@@ -44,7 +44,7 @@ if __name__ == "__main__":
     np.random.seed(42)
     NUM_ARMS = 5
     STEPS = 1000
-    EPSILON = 0.3
+    EPSILON = 0.1
     env = MultiArmedBanditEnv(num_arms=NUM_ARMS)
     agent = EpsilonGreedyAgent(num_arms=NUM_ARMS, epsilon=EPSILON)
 
